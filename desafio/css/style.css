@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+
+html{
+    scroll-behavior:smooth;
+}
+body{
+    background-image: url("/img/fundo.png");
+    text-align: center;
+    margin: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+.form{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.24);
+    flex-grow: 0.02;
+    border-radius: 40px;
+    height: 800px;
+}
+.nome{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+.termos{
+    display: flex;
+    flex-direction: row;
+}
+.persondata{
+    display: flex;
+    flex-direction: column;    
+    flex-grow: 1;
+    padding: 40px;
+    justify-content: space-around;
+}
+input:not(input[type=checkbox]){
+    border: none;
+    padding: 10px;
+    border-radius: 40px;
+    color: rgb(36, 0, 61);
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    margin: 10px;
+}
+
+input:focus:not(input[type=checkbox]){
+    transition: ease-in-out;
+    transition-duration: 0.4s;
+    background-color: rgb(213, 35, 76);
+    color: white;
+    box-shadow: 5px 5px 10px 2px rgb(124, 124, 141);;
+}
+input:focus::placeholder{
+    color: white;
+}
+input[type=submit]{
+    align-self: center;
+    margin: 10px;
+    background-color: rgb(20, 201, 224);
+    color: white;
+    
+}
+input[type=submit]:hover{
+    background-color: rgb(13, 115, 199);
+}
+.termos{
+    flex-direction: row;
+    align-self: center;
+    gap: 3px;
+}
+.destaque{
+    color: rgb(95, 196, 255);
+}
+text{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+i{
+    color: inherit;
+}
+
